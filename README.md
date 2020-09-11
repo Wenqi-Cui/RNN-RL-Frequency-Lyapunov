@@ -11,7 +11,7 @@ greatly slow down the training of the neural network. In this paper, we propose 
 
 # Flexible non-linear controller learnt from the proposed framework
 Here we show the action of neural network controller compared with linear droop control
-![Alt text](https://github.com/Wenqi-Cui/RNN-RL-Frequency-Lyapunov//to/Action_Mono.png)
+<img src="/Action_Mono.png" height="450px" width="700px" >
 
 # Language and Dependencies
 We used Python to implement the algorithm. Data for the power system is imported from MATLAB as 'IEEE_39bus_Kron.mat'. The coeffcient for linear droop control is obtained by fmincon function of Matlab as 'Sol_linear'. We used the open-source Python package Tensorflow 2.0 to implement RNN and train the neural network models.
