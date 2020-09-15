@@ -1,6 +1,11 @@
 # RNN-Based Reinforcement Learninging Framework for Optimal Frequency Control with Stability Guarantee
 This repository contains source code necessary to reproduce the results presented in the following paper:
-Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach
+[Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach](https://arxiv.org/abs/2009.05654)  
+
+Authors: Wenqi Cui and Baosen Zhang  
+
+University of Washington 
+
 
 # Motivation
 The increase in penetration of inverter-based resources provide us with more  flexibility in frequency regulation of power systems in addition to conventional linear droop controllers. Because of the fast power electronic interfaces, inverter-based resources can be used to realize complex control functions and potentially offer large gains in performance compared to linear controllers. Reinforcement learning has emerged as popular method to find these nonlinear controllers by parameterizing them as neural networks. 
@@ -14,7 +19,7 @@ Here we show the action of neural network controller compared with linear droop 
 <img src="/Action_Mono.png" height="450px" width="700px" >
 
 # Language and Dependencies
-We used Python to implement the algorithm. Data for the power system is imported from MATLAB as 'IEEE_39bus_Kron.mat'. The coeffcient for linear droop control is obtained by fmincon function of Matlab as 'Sol_linear'. We used the open-source Python package Tensorflow 2.0 to implement RNN and train the neural network models.
+All code are implemented in Python. Data for the power system is imported from MATLAB as 'IEEE_39bus_Kron.mat'. The coeffcient for linear droop control is obtained by fmincon function of Matlab as 'Sol_linear.mat'. We used the open-source Python package Tensorflow 2.0 to implement RNN and train the neural network models.
 
 
 # Code References
