@@ -23,4 +23,4 @@ All code are implemented in Python. Data for the power system is imported from M
 
 
 # Code References
-We thank https://sourceforge.net/projects/pg-sync-models for developping open-sorce MATLAB toolbox for Kron Reduction
+We thank https://sourceforge.net/projects/pg-sync-models for developping open-sorce MATLAB toolbox for Kron Reduction, and https://www.ecse.rpi.edu/~chowj/ for developping  open-sorce power system toolbox.
