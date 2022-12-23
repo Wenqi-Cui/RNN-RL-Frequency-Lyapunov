@@ -19,7 +19,7 @@ Here we show the action of neural network controller compared with linear droop 
 <img src="/Action_Mono.png" height="450px" width="700px" >
 
 # Language and Dependencies
-All code are implemented in Python. The code can directly run through Google Colab using this [link](https://colab.research.google.com/drive/1vinnX16zuRR0I13ofpopk61zFeTMfwbK?usp=sharing/).
+All code are implemented in Python and can be run through Jupyter notebook (or other equivalent environment such as Google Colab). The code can also be copied to Google Colab using this [link](https://colab.research.google.com/drive/1vinnX16zuRR0I13ofpopk61zFeTMfwbK?usp=sharing/).
 Data for the power system is imported from MATLAB as 'IEEE_39bus_Kron.mat'. The coeffcient for linear droop control is obtained by fmincon function of Matlab as 'Sol_linear.mat'. We used the open-source Python package Tensorflow 2.0 to implement RNN and train the neural network models.
 
 
