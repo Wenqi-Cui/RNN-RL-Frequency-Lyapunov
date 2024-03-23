@@ -22,6 +22,8 @@ Here we show the action of neural network controller compared with linear droop 
 All code are implemented in Python and can be run through Jupyter notebook (or other equivalent environment such as Google Colab). The code can also be copied to Google Colab using this [link](https://colab.research.google.com/drive/1vinnX16zuRR0I13ofpopk61zFeTMfwbK?usp=sharing/).
 Data for the power system is imported from MATLAB as 'IEEE_39bus_Kron.mat'. The coeffcient for linear droop control is obtained by fmincon function of Matlab as 'Sol_linear.mat'. We used the open-source Python package Tensorflow 2.0 to implement RNN and train the neural network models.
 
+[ANDES](https://github.com/cuihantao/andes) is utilized to simulate the dynamic response from WECC generic model for solar PV and Type-4 wind turbine generation (WTG) as the renewable resources, and 6th-order generator model with turbine-governing systems. Code for running simulation and loading the trained neural networks can be found in the folder 'andes'. 
+
 
 # Code References
-We thank https://sourceforge.net/projects/pg-sync-models for developping open-sorce MATLAB toolbox for Kron Reduction, and https://www.ecse.rpi.edu/~chowj/ for developping  open-sorce power system toolbox.
+We thank https://sourceforge.net/projects/pg-sync-models for developping open-sorce MATLAB toolbox for Kron Reduction, and https://www.ecse.rpi.edu/~chowj/ for developping  open-sorce power system toolbox, and https://github.com/cuihantao/andes for developping open-source Python library for power system dynamic simulation.
